@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "872369913341",
+    "firebase_url": "https://garbage-5fc93.firebaseio.com",
+    "project_id": "garbage-5fc93",
+    "storage_bucket": "garbage-5fc93.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:872369913341:android:259585e57c56452d",
+        "android_client_info": {
+          "package_name": "xyz.sleepygamers.garbage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "872369913341-bqmdptdansdjogr5df6fopdihp0psm24.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnCCF__tv557P_tH4g4KmVwKFodv0huMU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
