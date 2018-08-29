@@ -53,8 +53,8 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     }
 
     private void Login() {
-        String email= EtEmail.toString().trim();
-        String password=EtPassword.toString().trim();
+        String email= EtEmail.getText().toString().trim();
+        String password=EtPassword.getText().toString().trim();
 
         if(TextUtils.isEmpty(email)){
             Toast.makeText(this,"Enter the email",Toast.LENGTH_SHORT).show();

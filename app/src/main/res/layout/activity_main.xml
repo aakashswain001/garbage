@@ -8,9 +8,9 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_centerVertical="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
         android:orientation="vertical">
 
         <EditText
@@ -35,6 +35,12 @@
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
             android:text="Register User" />
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/btn_google"
+            android:layout_width="368dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp" />
 
         <TextView
             android:id="@+id/signin"
