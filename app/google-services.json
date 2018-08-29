@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "872369913341-hdkc1n1d7be6iltcjhel6pmluhgffivq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "xyz.sleepygamers.garbage",
+            "certificate_hash": "c22bdbc7215626eae5df1b31da652fc9cb4d1f2c"
+          }
+        },
+        {
           "client_id": "872369913341-bqmdptdansdjogr5df6fopdihp0psm24.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,8 +37,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "872369913341-bqmdptdansdjogr5df6fopdihp0psm24.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2
