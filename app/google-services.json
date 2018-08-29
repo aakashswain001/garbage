@@ -23,6 +23,14 @@
           }
         },
         {
+          "client_id": "872369913341-8c0jeairk9olfjqfmedqe8ibj93caunf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "xyz.sleepygamers.garbage",
+            "certificate_hash": "6a1381c1a7ec2acd4b815e67c34699e4fbddaa2f"
+          }
+        },
+        {
           "client_id": "872369913341-bqmdptdansdjogr5df6fopdihp0psm24.apps.googleusercontent.com",
           "client_type": 3
         }

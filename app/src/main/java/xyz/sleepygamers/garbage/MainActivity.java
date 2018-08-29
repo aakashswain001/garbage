@@ -18,7 +18,7 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-    public EditText email,password;
+    EditText EtEmail,EtPassword;
     public TextView sign;
     public Button register;
     private FirebaseAuth firebaseAuth;
@@ -33,8 +33,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             finish();
             startActivity(new Intent(this,welcome.class));
         }
-        email=findViewById(R.id.email);
-        password=findViewById(R.id.password);
+        EtEmail=findViewById(R.id.email);
+        EtPassword=findViewById(R.id.password);
         sign=findViewById(R.id.signin);
         register=findViewById(R.id.register);
 
@@ -55,8 +55,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void register() {
-        String email=findViewById(R.id.email).toString().trim();
-        String password=findViewById(R.id.password).toString().trim();
+        String email=EtEmail.getText().toString().trim();
+        String password=EtPassword.getText().toString().trim();
 
         if(TextUtils.isEmpty(email)){
             Toast.makeText(this,"Enter the email",Toast.LENGTH_SHORT).show();
